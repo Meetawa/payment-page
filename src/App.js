@@ -1,7 +1,12 @@
 import React from "react";
+import PaymentPage from "./pages/PaymentPage";
 
 const App = () => {
-  return <div>Rahul Saini</div>;
+  return (
+    <div>
+      <PaymentPage />
+    </div>
+  );
 };
 
 export default App;
