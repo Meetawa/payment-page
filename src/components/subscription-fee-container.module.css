@@ -1,0 +1,101 @@
+.text,
+.text1 {
+  position: relative;
+  line-height: 120%;
+}
+.text1 {
+  letter-spacing: 0.03em;
+  line-height: 100%;
+  font-weight: 500;
+}
+.textContainer {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.text2,
+.text3 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+.text3 {
+  letter-spacing: 0.03em;
+  line-height: 100%;
+  color: var(--color-darkslategray);
+}
+.iconClock {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.alert,
+.alertBody {
+  display: flex;
+  justify-content: flex-start;
+}
+.alertBody {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-sm);
+}
+.alert {
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2),
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2)
+  );
+  width: 501px;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--color-tomato);
+}
+.total {
+  font-weight: 600;
+}
+.rightText {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.03em;
+  line-height: 100%;
+}
+.summaryContainer {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border-top: 2px solid var(--color-silver);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-roboto);
+}

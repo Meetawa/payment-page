@@ -1,12 +1,11 @@
-import React from "react";
-import PaymentPage from "./pages/PaymentPage";
+import { Routes, Route } from "react-router-dom";
+import CodingAssignment from "./pages/coding-assignment";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <PaymentPage />
-    </div>
+    <Routes>
+      <Route path="/" element={<CodingAssignment />} />
+    </Routes>
   );
-};
-
+}
 export default App;

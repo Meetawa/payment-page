@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-nunito: Nunito;
+  --font-raleway: Raleway;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-lg: 18px;
+  --font-size-3xl: 22px;
+  --font-size-37xl: 56px;
+  --font-size-45xl: 64px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-sm: 14px;
+  --font-size-3xs: 10px;
+  --font-size-xs: 12px;
+  --font-size-19xl: 38px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dodgerblue: #0096ff;
+  --color-red: #ff0000;
+  --color-mediumseagreen: #47ba68;
+  --color-salmon: #f77171;
+  --color-silver: #bebebe;
+  --color-darkslategray: #3c4852;
+  --color-tomato: #de4313;
+  --color-honeydew: #d7eddd;
+  --color-gainsboro: #e7e7e7;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-29xl: 48px;
+  --gap-45xl: 64px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-832xl: 851px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-lg: 18px;
+  --padding-3xs: 10px;
+  --padding-5xl: 24px;
+  --padding-23xl: 42px;
+  --padding-base: 16px;
+  --padding-61xl: 80px;
+
+  /* border radiuses */
+  --br-base: 16px;
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-981xl: 1000px;
+  --br-33xl: 52px;
+}

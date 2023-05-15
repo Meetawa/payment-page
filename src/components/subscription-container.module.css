@@ -1,0 +1,88 @@
+.radioButtonIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  font-weight: 600;
+}
+.text,
+.text1,
+.text2 {
+  position: relative;
+  line-height: 120%;
+}
+.text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.text2 {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+.topText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.text3,
+.text4 {
+  position: relative;
+  line-height: 120%;
+}
+.text4 {
+  font-size: var(--font-size-3xs);
+  font-weight: 500;
+  color: var(--color-silver);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.bottomText,
+.leftTextContainer {
+  display: flex;
+  align-items: flex-end;
+}
+.bottomText {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.leftTextContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+}
+.textContainer,
+.textField3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textContainer {
+  flex: 1;
+  justify-content: space-between;
+}
+.textField3 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--color-silver);
+  padding: var(--padding-base);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-roboto);
+}
